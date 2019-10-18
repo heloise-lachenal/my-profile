@@ -1,0 +1,132 @@
+/*Colors and fonts */
+body{
+	background-color: rgb(230, 230, 230);
+	color: rgb(30, 30, 30);
+	font-family: 'Lora', serif; 
+	font-size: 16px;
+	text-align: justify;
+	}
+
+h1, h2, h3 { 
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	}
+
+h1 {
+	color: #484c7f;
+	font-weight: 800;
+	letter-spacing: 6px;
+	font-size: 25px;
+	text-transform: uppercase;
+	}
+
+h2 {
+	color: #4baea0;
+	font-size: 20px;
+	font-weight: lighter;
+	text-transform: uppercase;
+	}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+	}
+
+a  {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: #6B72E1;
+  font-weight: 600;
+  font-size: 16px;
+	}
+
+
+/* Custom design with class */
+
+.div {
+	width: 700px;
+	margin: 40px auto;
+	}
+
+.card-white {
+	background: white;
+	padding: 30px 60px;
+	margin: 30px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	text-align: center;
+	}	
+
+.img-circle	{
+	border-radius: 50%;
+	}
+
+.btn-blue {
+    background-color: #6B72E1;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 4px;
+	}
+
+.btn-blue:hover {
+	background-color: black;
+	color: white;
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.list-inline li {
+    display: inline;
+    padding: 10px;
+}
+
+.list-inline i {
+    font-size: 50px;
+    color: rgb(230, 230, 230);
+}
+
+.list-inline i:hover {
+    color: black;
+}
+
+/*Design adjustments using id*/
+
+#introduction p {
+    margin-bottom: 40px;
+	}
+
+img {
+	width: 180px;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+	}
+
+.shadowed {
+	box-shadow: 5px 5px 3px black;
+	}
+
+
+
+@media (max-width: 760px) {
+	.div {
+	width: 600px;
+	}
+	}
+
+@media (max-width: 500px) {
+	.div {
+	width: 400px;
+	}
+	}
+
+
+/* Start http://www.cursors-4u.com */ 
+* {cursor: url(http://cur.cursors-4u.net/nature/nat-11/nat1012.cur), auto !important;} 
+/* End http://www.cursors-4u.com */
